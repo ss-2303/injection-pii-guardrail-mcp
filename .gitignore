@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Test/tool caches
+.pytest_cache/
+
+# Local audit database (never commit scan data)
+audit.db
+*.db
+
+# OS cruft
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/

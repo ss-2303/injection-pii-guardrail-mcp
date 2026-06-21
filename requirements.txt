@@ -1,0 +1,7 @@
+mcp==1.28.0
+pytest==9.1.1
+
+# Optional — only required if you enable the llm_judge() second-pass
+# check in guardrail/injection_detector.py (off by default, no API
+# key needed for the core detector).
+# anthropic>=0.40.0
