@@ -37,8 +37,8 @@ llm-judge = ["anthropic>=0.40.0"]
 injection-pii-guardrail-mcp = "guardrail.server:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/injection-pii-guardrail-mcp"
-Repository = "https://github.com/yourusername/injection-pii-guardrail-mcp"
+Homepage = "https://github.com/ss-2303/agent-guardrail-mcp"
+Repository = "https://github.com/ss-2303/agent-guardrail-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["guardrail"]
